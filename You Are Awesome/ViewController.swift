@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("🤙🏾 viewDidLoad had run!")
        // messageLabel.text = "You are super"
+        messageLabel.text = ""
 
     }
     
@@ -25,6 +26,7 @@ class ViewController: UIViewController {
         messageLabel.text = "You are Awesome "
         messageLabel.textColor = UIColor.magenta
         messageLabel.textAlignment = .left
+        imamgeView.image = UIImage(named: "images1")
     
     }
     @IBAction func secondMessageButtonPressed(_ sender: UIButton) {
