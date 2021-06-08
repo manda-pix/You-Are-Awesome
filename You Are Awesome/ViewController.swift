@@ -9,11 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var messageLabel: UILabel!
+    @IBOutlet weak var imamgeView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         print("🤙🏾 viewDidLoad had run!")
-        messageLabel.text = "You are super"
+       // messageLabel.text = "You are super"
 
     }
     
@@ -30,6 +31,17 @@ class ViewController: UIViewController {
         messageLabel.text = "You are Great"
         messageLabel.textColor = .systemRed
         messageLabel.textAlignment = .right
+        imamgeView.image = UIImage(named: "images0")
+        
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
